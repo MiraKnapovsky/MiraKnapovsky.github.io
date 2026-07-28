@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Miroslav Knapovský">
+  <rect width="64" height="64" rx="16" fill="#101210" />
+  <ellipse cx="32" cy="32" rx="23" ry="10" fill="none" stroke="#79d7b5" stroke-width="2" transform="rotate(-12 32 32)" />
+  <circle cx="51" cy="23" r="3" fill="none" stroke="#79d7b5" stroke-width="2" />
+  <text x="32" y="39" fill="#f0f1eb" font-family="system-ui, sans-serif" font-size="20" font-weight="800" text-anchor="middle">MK</text>
+</svg>
