@@ -117,7 +117,6 @@ a:focus-visible {
   transform: translateY(0);
 }
 
-.site-header,
 .site-footer {
   position: fixed;
   z-index: 10;
@@ -127,34 +126,6 @@ a:focus-visible {
   justify-content: space-between;
   width: 100%;
   padding-inline: clamp(1.25rem, 3.2vw, 3.5rem);
-}
-
-.site-header {
-  top: 0;
-  min-height: clamp(4.5rem, 10vw, 6.5rem);
-}
-
-.monogram {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  color: var(--text);
-  font-size: 0.72rem;
-  font-weight: 780;
-  letter-spacing: 0.14em;
-  text-decoration: none;
-}
-
-.monogram i {
-  width: 1.7rem;
-  height: 1px;
-  background: var(--line);
-}
-
-.monogram small {
-  color: var(--muted);
-  font-size: 0.62rem;
-  font-weight: 650;
 }
 
 .profile {
@@ -354,10 +325,6 @@ h1 {
 }
 
 @media (max-height: 560px) and (orientation: landscape) {
-  .site-header {
-    min-height: 3.6rem;
-  }
-
   .site-footer {
     display: none;
   }
