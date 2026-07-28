@@ -324,26 +324,6 @@ h1 {
   }
 }
 
-@media (max-width: 360px) {
-  .profile__links {
-    gap: 0.55rem;
-  }
-
-  .profile__links a {
-    width: 2.75rem;
-    height: 2.75rem;
-  }
-
-  .profile__links svg {
-    width: 1.3rem;
-    height: 1.3rem;
-  }
-
-  .profile__links a > span {
-    font-size: 0.5rem;
-  }
-}
-
 @media (max-height: 560px) and (orientation: landscape) {
   .site-footer {
     display: none;
